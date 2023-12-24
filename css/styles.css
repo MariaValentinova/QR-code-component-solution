@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;700&family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*variables*/
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+/* Estilos generales del cuerpo del documento */
+body{
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 2rem;
+    width: 100vw;
+    max-width: 1440px;
+    height: 100vh;
+    background-color: var(--Gray);
+}
+/*estilo de la tarjeta*/
+.card{
+    background-color: var(--White);
+    border-radius: 1.5rem;
+    box-shadow: 2px 2px 0.5; 
+    width: 100%;
+    max-width: 300px;
+    padding: 1rem;
+}
+.card__pic{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.card__img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.7rem;
+}
+/* Estilos para el texto principal */
+.card__texts{
+    display: flex;
+    flex-direction: column;
+}
+.card__title{
+    text-align: center;
+    color: var(--Dark-blue);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+.card__paragraph{
+    color: var(--Grayish-blue);
+    text-align: center;
+    /*estilo predeterminado del parafo*/
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
