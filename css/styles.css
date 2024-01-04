@@ -31,12 +31,12 @@ body{
     border-radius: 1.5rem;
     box-shadow: 2px 2px 0.5; 
     width: 100%;
-    max-width: 300px;
+    max-width: 21.4rem;
     padding: 1rem;
 }
 .card__pic{
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 }
 .card__img{
     display: block;
@@ -52,15 +52,15 @@ body{
 .card__title{
     text-align: center;
     color: var(--Dark-blue);
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
+    margin: 0.4rem 0 1.2rem;
+    font-size: 1.5rem;
 }
 .card__paragraph{
     color: var(--Grayish-blue);
     text-align: center;
-    /*estilo predeterminado del parafo*/
-    font-size: 15px;
-    margin-bottom: 2rem;
+    font-size: 1rem;
+    margin:0 0.6rem 1.8rem;
+    letter-spacing: 0.02rem;
 }
 .attribution {
     font-size: 11px;
